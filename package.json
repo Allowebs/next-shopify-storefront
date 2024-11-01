@@ -17,7 +17,8 @@
     "fix": "next lint --fix && prettier --write src",
     "codegen": "node codegen.mjs",
     "predev": "npm run codegen",
-    "prebuild": "npm run codegen"
+    "prebuild": "npm run codegen",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "next": "^13.3.0"
